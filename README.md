@@ -65,8 +65,8 @@
 
 1. Parses the format string for conversion specifiers (e.g., `%d`, `%s`).
 2. Processes each specifier by:
-  - Validating its format.
-  - Extracting and formatting the corresponding argument from the variadic list.
+    - Validating its format.
+    - Extracting and formatting the corresponding argument from the variadic list.
 3. Writes the formatted output to the standard output (`stdout`) using `write`.
 
 ---
